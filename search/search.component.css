@@ -20,7 +20,11 @@ body{
 
 	align-items: center;
 
-	background-image: url('/assets/bootstrap_search/search.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+
+	background-image: url('/assets/images/search.jpg');
 
 }
 
@@ -41,6 +45,8 @@ h1{
 	width: 500px;
 
 	height: 50px;
+
+	border-color: black;
 
 	background-color: white;
 
@@ -68,7 +74,7 @@ h1{
 
 	height: 40px;
 
-	border: none;
+	border:2px;
 
 	outline: none;
 
