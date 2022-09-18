@@ -5,7 +5,7 @@
 <body>
       <div class="container">
         <div class="row">
-			<div align="left" class="jumbotron ">
+			<div align="left" class="jumbotron " style="padding-top: 10px;">
 				<h1 id="toptext">WELCOME</h1>
 			</div>
 			
@@ -20,32 +20,35 @@
                       <form (submit)="onLogin(loginForm)" #loginForm="ngForm">
                           <div class="field">
                               <div class="control">
-                                  <input name="email" ngModel #emailInput="ngModel" class="input is-medium" type="email" placeholder="Your Email" autofocus="" required email>
+                                  <input name="email" ngModel #emailInput="ngModel" class="input is-medium" type="email" placeholder="Your Email" required email>
                                   <p class="login-error" *ngIf="!emailInput.valid && emailInput.touched">Please enter valid email</p>
                               </div>
                           </div>
-                          <div class="field">
+                          <div class="field" style="padding-bottom: 30px;">
                               <div class="control">
                                   <input name="password" ngModel #passwordInput="ngModel" class="input is-medium" type="password" placeholder="Your Password" required>
                                   <p class="login-error" *ngIf="!passwordInput.valid && passwordInput.touched">Please enter valid password</p>
                               </div>
                           </div>
-                          <div class="field" style="padding-bottom: 30px;">
+                          <!-- <div class="field" style="padding-bottom: 30px;">
                               <label class="checkbox">
                               <input type="checkbox">
                               Remember me
                             </label>
-                          </div>
+                          </div> -->
+                          <div style="padding-left: 40px;">
                           <button class="buttondesign" type="submit">Login</button>
+                        </div>
                       </form>
 		
-			        <p class="signupandpass">
+			        <p class="signupandpass" align="center">
                       <a style="color: rgb(0, 0, 0);" routerLink="../">Sign Up</a> &nbsp;
-                      <a style="color: rgb(0, 0, 0);" routerLink="../">Forgot Password</a> &nbsp;&nbsp;
+                      <!-- <a style="color: rgb(0, 0, 0);" routerLink="../">Forgot Password</a> &nbsp;&nbsp; -->
                   </p>
                 </div>
                 <p><br><br></p>
             </div>
+            
 	  </div>
   </body>
 </html>

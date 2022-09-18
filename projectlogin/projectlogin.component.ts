@@ -11,8 +11,8 @@ export class ProjectloginComponent implements OnInit {
 
   constructor(){}
 
-  onLogin(form:  NgForm){
-    if(form.invalid){
+  onLogin(loginForm: any){
+    if(loginForm.invalid){
       alert("Please enter valid data");
       return;
 

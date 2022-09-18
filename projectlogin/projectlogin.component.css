@@ -1,10 +1,8 @@
 body {
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-  width: 100%;
-  height: 100%;
-	background-image: url('https://cdn.create.vista.com/api/media/medium/337561066/stock-photo-medical-equipment-and-supplies-on?token=CzXdWhi6HNXNLtyIQvw25BgGkNXyfA98lC5FhlmeOu1nCK8wRt0inyIsSmNDKcoZ');
+	background-attachment:fixed;
+	background-size:cover;
+	background-image:url('/assets/images/login_page.jpg');
 }
 #toptext{
 	color:white;
@@ -79,7 +77,6 @@ html{
   padding: 2px 25px;
   border-radius: 2px;
   transition: 0.3s;
-
   }
   .buttondesign:hover{
     background-color:dodgerblue;
@@ -91,4 +88,7 @@ html{
   .radiobuttons{
     float: left;
     padding-bottom: 25px;
+  }
+  #marqueee{
+    float: left;
   }
