@@ -1,0 +1,94 @@
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  width: 100%;
+  height: 100%;
+	background-image: url('https://cdn.create.vista.com/api/media/medium/337561066/stock-photo-medical-equipment-and-supplies-on?token=CzXdWhi6HNXNLtyIQvw25BgGkNXyfA98lC5FhlmeOu1nCK8wRt0inyIsSmNDKcoZ');
+}
+#toptext{
+	color:white;
+}
+html{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+  }
+   .box {
+    width: 300px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 5px;
+  }
+
+  input {
+    font-weight: 300;
+  }
+  p {
+    font-weight: 700;
+  }
+  p.subtitle {
+    padding-top: 1rem;
+  }
+  
+  .login-hr{
+    border-bottom: 5px solid white;
+  }
+  
+  .has-text-black{
+    color: black;
+  }
+  .control{
+    padding-top: 10px;
+  }
+  
+  .field{
+    padding-top: 15px;
+	border-color : black;
+  }
+  
+  .fa{
+    margin-left: 5px;
+  }
+  .signupandpass{
+    padding-top: 50px;
+    padding-left: 5px;
+    font-size: small;
+  }
+  
+
+  
+  .footer{
+  background-color: #efefed;
+  color: rgb(244, 242, 228);
+  }
+ 
+  
+  .login-error{
+    color:  red;
+    font-weight: lighter;
+  }
+  .buttondesign{
+    background-color: rgb(247, 242, 242);
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor:pointer;
+  font-size: 20px;
+  padding: 2px 25px;
+  border-radius: 2px;
+  transition: 0.3s;
+
+  }
+  .buttondesign:hover{
+    background-color:dodgerblue;
+    color: white;
+  }
+  h1{
+	  padding-left:60px;
+  }
+  .radiobuttons{
+    float: left;
+    padding-bottom: 25px;
+  }
