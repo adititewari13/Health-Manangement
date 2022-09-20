@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>doc_page</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/assets/css/Data-Table-styles.css">
+    <link rel="stylesheet" href="/assets/css/Data-Table.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/Pretty-Table-tables.css">
+    <link rel="stylesheet" href="/assets/css/Pretty-Table.css">
+</head>
+
+<body style="background: #a4c8ff;">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-light" style="height: 65px;background: #bed8ff;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size: 25px;font-weight: bold;color: var(--bs-blue);">HealthyMe</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><button class="btn btn-primary" type="button" style="background: rgb(79,105,174);">SEARCH</button></li>
+                    <li class="nav-item"><button class="btn btn-primary" type="button" style="background: transparent;color: var(--bs-black);">APPOINTMENTS</button></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><button class="btn btn-primary" type="button" style="background: transparent;color: var(--bs-black);">PROFILE</button></li>
+                    <li class="nav-item"><button class="btn btn-primary" type="button" style="background: rgb(79,105,174);">LOGOUT</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section style="background: #a4c8ff;">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="card m-auto" style="max-width:600px">
+                    <div class="card-body">
+                        <form class="d-flex align-items-center"><i class="fas fa-search d-none d-sm-block h4 text-body m-0"></i><input class="form-control form-control-lg flex-shrink-1 form-control-borderless" type="search" placeholder="Enter Patient's ID" name="searchbar" required="">&nbsp;<a class="nav-item" routerLink="result"><button class="btn btn-success btn-lg" type="submit">SHOW</button></a></form>
+                    </div>
+                </div>
+            </div>
+        </div><table id="search_table" class="table table-striped table-bordered" style="width:50%;margin: 40px auto;" >
+        <thead>
+            <tr style="text-align:center;">
+                <th style="width:200px;">NAME</th>
+                <th>REPORT</th>
+                <th>PRESCRIPTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align:center;">
+                <td></td>
+                <td><button class="btn btn-primary" type="button">GET</button></td>
+                <td><button class="btn btn-primary" type="button">GET</button>
+                </td>
+                
+            </tr>
+        </tbody>
+    </table>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding: 27px;height: 0px;">
+                    <p style="font-weight: bold;font-size: 27px;margin: 32px;text-align: center;padding: 0px;width: 198px;">DIAGNOSIS</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="font-weight: bold;font-size: 27px;margin: 57px;text-align: center;height: 27.5px;width: 169px;">MEDICINES</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="font-weight: bold;font-size: 27px;margin: 69px;text-align: center;width: 169px;height: 27.5px;">COMMENTS</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><textarea id="diagnosis" style="width: 285px;height: 165px;"></textarea></div>
+                <div class="col-md-4"><textarea id="medicines" style="width: 285px;height: 166px;"></textarea></div>
+                <div class="col-md-4"><textarea id="comments" style="width: 285px;height: 166px;"></textarea></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><button class="btn btn-primary" type="button" style="width: 143.5px;height: 50px;margin: 101px;font-weight: bold;text-align: center; background: rgb(79,105,174);">SAVE &amp; CLOSE</button></div>
+            <div class="col-md-4"></div>
+        </div>
+    </section>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+</body>
+
+</html>
