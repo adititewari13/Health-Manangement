@@ -17,7 +17,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/Login-Form-Basic-icons.css">
   </head>
-  <body style="background: url(&quot;/assets/img/login.jpg&quot;) center / auto no-repeat;">
+  <body>
     <section class="position-relative py-4 py-xl-5">
         <div class="container">
             <div class="row mb-5">
@@ -32,13 +32,15 @@
                             <div class="bs-icon-xl bs-icon-circle bs-icon-primary bs-icon my-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
                                     <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
                                 </svg></div>
-                            <form class="text-center" method="post">
+                            <form class="text-center" method="post" (submit)="onLogin(loginForm)" #loginForm="ngForm">
                                 <div><div class="radiobuttons" >
                                <h6> Who are you?</h6>
                                  <input type="radio" id="doctor" name="Who are you?" value="Doctor" checked="checked">
                                   <label for="doctor">Doctor</label> &nbsp;
                                     <input type="radio" id="patient"  name="Who are you?" value="Patient">
-                                <label for="patient">Patient</label>
+                                <label for="patient">Patient</label>&nbsp;
+                                    <input type="radio" id="Lab"  name="Who are you?" value="Lab">
+                                <label for="lab">Lab</label>
                                 </div></div>
                                 <div class="mb-3"><input class="form-control" type="email" name="email" ngModel #emailInput="ngModel" placeholder="Email" required=""><p class="login-error" *ngIf="!emailInput.valid && emailInput.touched">Please enter valid email</p></div>
                                 <div class="mb-3"><input class="form-control" type="password" name="password" ngModel #passwordInput="ngModel" placeholder="Password" required=""><p class="login-error" *ngIf="!passwordInput.valid && passwordInput.touched">Please enter valid password</p></div>
