@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>doc_header</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top text-light" style="height: 65px;background: #bed8ff;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="font-size: 25px;font-weight: bold;color: var(--bs-blue);background: url(&quot;/assets/img/logo.jpg&quot;) center / cover no-repeat;width: 137px;height: 42px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-item" routerLink="show_app"><button class="btn btn-primary" type="button" style="background: transparent;color: var(--bs-black);">APPOINTMENTS</button></a></li>
+                    <li class="nav-item"><a class="nav-item" routerLink="result"><button class="btn btn-primary" type="button"><strong>SEARCH</strong></button></a></li>
+                    <li class="nav-item"><a class="nav-item" routerLink="new_presc"><button class="btn btn-primary" type="button"><strong>PRESCRIBE</strong></button></a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <!-- <li class="nav-item"><a class="nav-item" routerLink="profile_doc"><button class="btn btn-primary" type="button" style="background: transparent;color: var(--bs-black);">PROFILE</button></a></li> -->
+                    <li class="nav-item"><button class="btn btn-primary" type="button" style="background: rgb(79,105,174);" (click)="userLogout()"><strong>LOGOUT</strong></button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
