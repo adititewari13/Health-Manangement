@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "632af0f1b0c6a2e95e011bb0"
+  },
+  "name": "pratyush",
+  "email": "pratyush@gmail.com",
+  "prescription": {
+    "medicines": "Dolo 650,Rantac",
+    "diagonsis": "Fever",
+    "comments": "take rest"
+  },
+  "doctor_details": {
+    "name": "Govind",
+    "email": "govind@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "632b65b3f4660779e2161a91"
+  },
+  "email": "pratyush@gmail.com",
+  "prescription": {
+    "medicines": "by ",
+    "diagonsis": "ygbg67 ",
+    "comments": "y7 u"
+  },
+  "doctor_details": {
+    "email": "pratyush@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "632bf74292ef7123a42b6469"
+  },
+  "email": "pratyush@gmail.com",
+  "prescription": {
+    "medicines": "just take rest",
+    "diagonsis": "stress",
+    "comments": "rest"
+  },
+  "doctor_details": {
+    "email": "adititewari13@gmail.com"
+  }
+},{
+  "_id": {
+    "$oid": "632c266192ef7123a42b6473"
+  },
+  "email": "kishan@gmail.com",
+  "prescription": {
+    "medicines": "dolo",
+    "diagonsis": "stress",
+    "comments": "take rest"
+  },
+  "doctor_details": {
+    "email": "govind@gmail.com"
+  }
+}]

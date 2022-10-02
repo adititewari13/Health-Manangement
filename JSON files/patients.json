@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "632af3499023d7b93df74d6f"
+  },
+  "name": "pratyush",
+  "email": "pratyush@gmail.com",
+  "password": "12345",
+  "usertype": "patients"
+},{
+  "_id": {
+    "$oid": "632b0a2817025a7c78e9ac80"
+  },
+  "name": "pratyush",
+  "Gender": "Male",
+  "email": "pratyuh@gmail.com",
+  "password": "12345",
+  "cnfpassword": "12345",
+  "contact": "546546",
+  "DOB": "2022-09-13",
+  "usertype": "patients"
+},{
+  "_id": {
+    "$oid": "632c201292ef7123a42b646e"
+  },
+  "name": "Kishan",
+  "Gender": "Male",
+  "email": "kishan@gmail.com",
+  "password": "12345",
+  "cnfpassword": "12345",
+  "contact": "7534127546",
+  "DOB": "2022-02-01",
+  "usertype": "patients"
+}]

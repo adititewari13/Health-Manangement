@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "632bece4819bbe53d4718497"
+  },
+  "name": "Aditi Tewari",
+  "Gender": "Female",
+  "email": "adititewari13@gmail.com",
+  "password": "12345",
+  "cnfpassword": "12345",
+  "contact": "9682750000",
+  "Specialisation": "Physician",
+  "DOB": "2000-09-02",
+  "usertype": "doctors"
+},{
+  "_id": {
+    "$oid": "632c1f8d92ef7123a42b646c"
+  },
+  "name": "Govind",
+  "Gender": "Male",
+  "email": "govind@gmail.com",
+  "password": "12345",
+  "cnfpassword": "12345",
+  "contact": "9745235643",
+  "Specialisation": "Physician",
+  "DOB": "1992-06-10",
+  "usertype": "doctors"
+},{
+  "_id": {
+    "$oid": "632c1fd492ef7123a42b646d"
+  },
+  "name": "Guru",
+  "Gender": "Male",
+  "email": "guru@gmail.com",
+  "password": "12345",
+  "cnfpassword": "12345",
+  "contact": "8123645864",
+  "Specialisation": "Physician",
+  "DOB": "1998-11-11",
+  "usertype": "doctors"
+}]
